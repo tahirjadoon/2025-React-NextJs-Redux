@@ -1,0 +1,25 @@
+>git commit -m "added first text file"
+>git commit -a -m "something" 
+
+
+Create a new branch on GitHub XXXXX from Main
+    >git fetch
+    >git branch -a [displays local and remote tracking branches]
+    Create the local tracking branch
+        >git branch --track XXXXX origin/XXXXX
+        >git switch -t origin/<NAME> [Create the local tracking branch with same name]  
+    >git branch -a [displays local and remote tracking branches]
+    >git switch XXXXX
+    >git branch -vv [shows more info about local tracking branch]
+
+Creating branch locally 
+    >git switch -c <NewBranchName> [create branch also]
+    >git branch -u upstream/<name> [ties the local tracking branch to remote tracking branch branch]
+    >git branch -u upstream/<name> <namelocal> [ties the local tracking branch to remote tracking branch branch when not in local branch]
+
+
+Manual merge
+    >git switch main
+        >git merge XXXXX [Fast-Forward] 
+        >git merge --squash XXXXX [Fast-Forward. Will merge but not commit, do add and commit manually. Single commit]
+    >git push origin

@@ -1,0 +1,43 @@
+Online editor
+	type react.new into your browser
+	
+Node
+	node installed via NVM 
+		https://github.com/nvm-sh/nvm
+		https://www.youtube.com/watch?v=HYINM27HM_Q 
+		
+	>nvm --version
+		1.1.12
+		
+	Install node 
+		nvm install <version> # like: 14.17.6
+		nvm install lts
+		nvm install node
+		
+	>nvm list
+		22.15.0
+		* 18.17.0 (Currently using 64-bit executable)
+		
+	>nvm use 22.15.0
+		Now using node v22.15.0 (64-bit)
+		
+	>nvm list
+		* 22.15.0 (Currently using 64-bit executable)
+		18.17.0
+		
+Vite or Create React app 
+	https://create-react-app.dev/docs/getting-started/ 
+	https://vite.dev/ 
+	
+Vite
+	it is being used to install the react project 
+	
+	To create react app 
+		npm create vite@latest react-project
+			this will ask questions
+				select a frmaework: React 
+				select a variant: Javascript 
+				
+	after setting up the project 
+		run "npm install"
+		run "npm run dev"

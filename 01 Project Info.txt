@@ -1,0 +1,14 @@
+Project covers
+	Authentication
+	Forms
+	Context API & userReducer
+	Styling
+	Animations
+	Redux
+	NextJs
+	Routing
+	Data Fetching & HTTP Requests
+	Refs & Portals 
+	React Query
+	Custom Hooks
+	

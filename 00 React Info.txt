@@ -1,0 +1,3 @@
+React is alibrary for building user interfaces
+	Declarative UI programming
+It is a javascript library
