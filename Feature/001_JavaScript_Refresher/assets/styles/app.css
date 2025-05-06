@@ -41,6 +41,15 @@ li {
     color: #e9e2ba;
 }
 
+li a{
+    color: #e9e2ba;
+}
+
+li a:hover{
+    text-decoration: underline;
+    color: aquamarine;
+}
+
 p.documents{
     text-align: center;
 }
