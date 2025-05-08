@@ -22,7 +22,7 @@ const commonJs = {
         const characterMin = char.repeat(3);
         let detail = `${characterMin} ${val} ${characterMin}`;
     
-        isAttachEnd = false;
+        let isAttachEnd = false;
         if(color){
             character = `${color}${character}`;
             detail = `${color}${detail}`;

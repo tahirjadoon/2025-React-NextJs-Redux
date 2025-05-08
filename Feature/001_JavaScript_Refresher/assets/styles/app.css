@@ -31,6 +31,16 @@ header h1 {
     font-size: 1.25rem;
 }
 
+.back a {
+    text-decoration: none;
+    color: #e9e2ba;
+}
+
+.back a:hover {
+    text-decoration: underline;
+    color: aquamarine;
+}
+
 ul {
     list-style: none;
     text-align: center;

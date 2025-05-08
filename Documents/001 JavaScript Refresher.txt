@@ -31,7 +31,7 @@ Import/Export => must use type=module
 		
 		npx http-server /path/to/project -o -p 9999
 		or
-		npx http-server C:\00Learning\Feature\001_JavaScript_Refresher -o -p 9999
+		npx http-server C:\00Learning\Learning-Examples\Api-Angular-React\Api-Angular-React-2025\2025-React-NextJs-Redux\Feature\001_JavaScript_Refresher -o -p 9999
 
 		This hosts all files in the /path/to/project directory on localhost:9999. 
 			type http://127.0.0.1:9999/ or https://localhost:9999
