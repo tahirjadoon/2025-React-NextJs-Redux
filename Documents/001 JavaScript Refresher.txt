@@ -1,0 +1,40 @@
+Add the script tag - manual way
+	<script  src="assets/scripts/app.js" defer></script>
+	defer means the script will be executed after the rest of the html document has been read ad parsed
+	
+or 
+	<script  src="assets/scripts/app.js" type="module"></script>
+	with module we can then import other js files 
+
+Import/Export => must use type=module
+	check util.js that exports a variable
+	check app.js which is importing that variable
+	
+	When you run the idex.html, you'll get int cors issue 
+		for this in cmd, navigate to the folder containing app.js 
+		then type "node app.js"
+		and you should see 
+	
+		app.js
+		apiKey:  A4310688C5514680968954B2F9A17B3D
+	
+	alternatively use Node.js
+
+		The Node.js http-server module is an easiest way to host HTML files in any directory.
+
+		Run the following commands to check if Node.js is already installed:
+				node -v
+				npm -v
+				npx -v
+
+		Let's assume the directory is /path/to/project. Run the following command to start the server:
+		
+		npx http-server /path/to/project -o -p 9999
+		or
+		npx http-server C:\00Learning\Learning-Examples\Api-Angular-React\Api-Angular-React-2025\2025-React-NextJs-Redux\Feature\001_JavaScript_Refresher -o -p 9999
+
+		This hosts all files in the /path/to/project directory on localhost:9999. 
+			type http://127.0.0.1:9999/ or https://localhost:9999
+			The option -o will open the index.html page in a web browser. If index.html doesn't exist, then the directory is displayed instead.
+
+React project uses a build process 
