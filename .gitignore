@@ -2,6 +2,9 @@
 node_modules
 node_modules/
 dist/
+dist
+dist-ssr
+*.local
 .cache/
 package-lock.json
 scripts/flow/*/.flowconfig
@@ -27,6 +30,11 @@ chrome-user-data
 .vscode
 *.swp
 *.swo
+
+# Ignore temporary open file versions (created when a Word file is open)
+~$*.docx
+~$*.doc
+
 
 packages/react-devtools-core/dist
 packages/react-devtools-extensions/chrome/build

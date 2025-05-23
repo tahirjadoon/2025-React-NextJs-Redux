@@ -11,4 +11,9 @@ Project covers
 	Refs & Portals 
 	React Query
 	Custom Hooks
+
+Baisc project has been setup 
+    > feature > 002_ReactEsseantials_Components_JSX_Props_State_etc
+
+    The document for it is 002_ReactEsseantials_Components_JSX_Props_State_etc.docx
 	

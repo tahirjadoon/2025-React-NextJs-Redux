@@ -1,1 +1,22 @@
-npm run dev
+
+Baisc project has been setup 
+    > feature > 002_ReactEsseantials_Components_JSX_Props_State_etc
+
+    The document for it is 002_ReactEsseantials_Components_JSX_Props_State_etc.docx
+
+    Running the project
+        
+        npm install
+        npm run dev
+
+            > react-essentials-start@0.0.0 dev
+            > vite
+
+
+            VITE v4.5.14  ready in 361 ms
+
+            ➜  Local:   http://localhost:5173/
+            ➜  Network: use --host to expose
+            ➜  press h to show help
+
+    
